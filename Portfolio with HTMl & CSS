@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <style>
+        * {
+            font-family:  'Times New Roman', Times, serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url(images/flower.jpg);
+            position: relative;
+            padding-bottom: 30px;
+            height: 600px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: rgb(236, 230, 230);
+        }
+
+        .header {
+            display: flex;
+            justify-content:space-between;
+            align-items: center;
+            padding: 20px 50px;
+        }
+        .sujita > h1{
+            margin-left: 525px;
+            color: azure;
+        }
+        .sujita > h3{
+            margin-left: 510px;
+            color: azure;
+        }
+
+        .header h1 {
+            font-size: 40px;
+            font-weight: bold;
+            font-style: italic;
+            color: black;
+        }
+
+        .choices {
+            display: flex;
+            position: relative;
+            justify-content: space-between;
+            margin-left: 150px;
+            padding-left: 250px;
+        }
+        .choices1 {
+            display: flex;
+            margin-top: 5px;
+        }
+        .choices1 a {
+            text-decoration: none;
+            background-color: bisque;
+            padding: 5px;
+            padding-left: 4px;
+            border-radius: 5px;
+            border-color: black;
+            color: rgb(23, 18, 18);
+            margin-left: 20px;
+            transition: all 0.3s ease;
+        }
+
+        .choices1 a:hover {
+            border: 1px solid rgb(24, 14, 14);
+            border-radius: 3px;
+            padding: 10px;
+            padding-left: 20px;
+            color: black;
+        }
+        .choices a {
+            text-decoration: none;
+            color: white;
+            margin-left: 20px;
+            padding: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .choices a:hover {
+            border: 1px solid white;
+            border-radius: 3px;
+            padding: 0px;
+            padding-left: 20px;
+            
+            color: black;
+        }
+
+        .photo {
+            margin-top: 150px;
+          
+            border-radius: 200px;
+           margin-left: 500px;
+           margin-bottom: 20px;
+            width: 200px;
+            height: 200px;
+            background-image: url(images/myimage.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .name {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .des{
+            margin-top: 300px;
+            padding-top: 40px;
+            margin-bottom: 0px;
+            position: relative;
+            padding-bottom: 90px;
+            
+            background-color: white;
+            color: rgb(147, 93, 46);
+            padding-left: 325px;
+           
+            border-radius: 2px;
+        }
+
+        .box{
+           
+            margin-top: 80px;
+            position: relative;
+            background-color: rgba(249, 171, 171, 0.5); /* Red color with 50% opacity */
+            /* Red color with 50% opacity */
+          width: 600px;
+         height: 500px;
+         transition: 0.5s ease-in-out;
+        }
+        .box:hover{
+             color: black;
+             background-color: rgba(209, 99, 99, 0.5);
+            border-radius: 10px;
+        }
+        .box1:hover{
+            background-color: rgba(209, 99, 99, 0.5);
+            border-radius: 10px;
+        }
+
+        .box2:hover{
+            background-color: rgba(209, 99, 99, 0.5);
+            border-radius: 10px;
+        }
+      .photography > .box1{
+        margin-left: 20px;
+      }
+      .photography > .box2{
+        margin-left: 20px;
+      }
+      .photography > .box3{
+        
+        margin-left: 20px;
+      }
+      
+        .photography{
+            display: flex;
+            margin: 5px;
+            padding-top: 150px;
+            margin-left: 20px;
+            justify-content:space-evenly;
+            height: 800px;
+            padding: 50px;
+            background-repeat: no-repeat;
+        
+            background-size: cover;
+            background-image: url(image/mekapu.webp)
+
+        }
+        .box > pre{
+            font-size: 30px;
+            padding-top: 30px;
+            color: rgb(250, 247, 248);
+        }
+        
+        .box1{
+            
+            margin-top: 80px;
+            position: relative;
+            margin-left: 2px;
+            background-color: rgba(249, 171, 171, 0.5); /* Red color with 50% opacity */
+          width: 600px;
+         height: 500px;
+         transition: 0.5s ease-in-out;
+        }
+       
+      
+      .suju >pre 
+      {
+        margin-top:0px;
+        margin-bottom: 0px;
+        position: relative;
+        margin-left: 450px;
+       font-size: 50px;
+       color: chocolate;
+       
+      }
+      .box1 > pre{
+        font-size: 30px;
+            padding-top: 30px;
+            color: rgb(251, 251, 251);
+      }
+      .diyu >H1{
+        color: brown;
+        margin-left: 400px;
+        margin-top: 50px;
+        padding-left:100px ;
+        padding-bottom: 20px;
+      }
+      .projects{
+        display: flex;
+        justify-content:center;
+      }
+      .End > h1{
+        padding-top: 90px;
+        margin-left: 560px;
+        color:rgb(10, 18, 18);
+      }
+    
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>My website</h1>
+        <div class="options">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Service</a>
+            <a href="#">Pages</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+
+    <div class="maiN">
+        <div class="photo"></div>
+        <br>
+        
+        <div class="diya">
+            <h1>Hello, I'm Sujita Mainali!!</h1>
+            <br>
+            <h3>Photographer</h3>
+        </div>
+    </div>
+    <div class="des">
+        <pre>
+            What interests me in photography?
+    9 reasons why photography is an important hobby
+   It helps you notice your world and stay in the moment
+  Photography makes me so much more observant and aware 
+  of the wonderful little things that surround me each day.
+   I notice things like light, shadows, patterns, frames, 
+        and colors that I can use in my pictures.
+        </pre>
+
+    </div>
+    <div class="suju">
+    <pre> My Services</pre>
+</div>
+    <div class="photography">
+       
+        <br>
+        <div class="box">
+            <pre>                     
+    !!Photography Techniques!!
+Framing. Framing is a popular compositional technique that involves 
+  using elements of a scene to create a frame around your subject.
+    Leading lines, Negative space, Fill the frame, Use contrast. 
+       Use repetition and pattern,Depth of field.
+ </pre>
+            
+    </div>
+        <div class="box1">
+        <pre>      Top 3 Work Reviews:
+    1.  We would not hesitate recommending you to our friends looking for a great photographer.
+           Thanks a million.” You've really done an awesome job, all the family
+                love them as well, so many thanks from all of us.
+    2.You have really done an awesome job, all the family love them as well,
+            so many thanks from all of us.”
+    3.We haveve just spent the last three hours looking through the photos, absolutely loving your work!
+        </pre>
+        </div>
+        <br>
+   
+        
+      
+    </div>
+    <div class="sujita">
+        <H1>Photography is my passion,ambition everything!!</H1>
+    </div>
+    <div class="projects">
+        
+        <div class="Choices">
+            <a href="#">All projects</a>
+            <a href="#">Explanation</a>
+            <a href="#">Websites</a>
+           
+        </div>
+    </div>
+    <div class="End">
+        <h1> Thank you for you time!!!</h1>
+    </div>
+</body>
+</html>
